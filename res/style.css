@@ -42,7 +42,7 @@ button {
   left: 0;
   z-index: 250;
   display: flex;
-  width: 10vw;
+  width: 100vw;
   height: 100vh;
   background: #eceff1;
   box-shadow: 0 5px 50px #aaa;
@@ -51,8 +51,8 @@ button {
 .splash .center {
   width: 100%;
   margin: auto;
-  padding: 16px 15px 15px;
-  background: url("/images/favicon.png") center top no-repeat;
+  padding: 165px 15px 15px;
+  background: url(favicon.png) center top no-repeat;
   background-size: 180px;
 }
 
@@ -102,7 +102,7 @@ button {
   display: inline-block;
   width: 100%;
   height: 280px;
-  background-image: url("/images/ken.png");
+  background-image: url(ken.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -181,17 +181,17 @@ button {
 }
 
 .pilih #batu {
-  background: url("/images/player-batu.png");
+  background: url(player-batu.png);
   background-size: contain;
 }
 
 .pilih #gunting {
-  background: url("/images/ken-gunting.png");
+  background: url(player-gunting.png);
   background-size: contain;
 }
 
 .pilih #kertas {
-  background: url("/images/ken-kertas.png");
+  background: url(player-kertas.png);
   background-size: contain;
 }
 
